@@ -114,3 +114,4 @@ class bayesianlinearregression:
 if __name__=='__main__':
   baeslinear=bayesianlinearregression()
   baeslinear.ploting_results()
+  print('i add some dummy changes ')
