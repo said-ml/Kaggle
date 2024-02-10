@@ -111,6 +111,15 @@ class bayesianlinearregression:
       # Display the figure
       plt.show()
 
+
+
+ import tensorflow as tf
+
+ from keras.layers import Dense
+ from keras.layers import Flatten
+ from keras.layers import UpSampling2D
+
+
 if __name__=='__main__':
   baeslinear=bayesianlinearregression()
   baeslinear.ploting_results()
